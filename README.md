@@ -10,7 +10,7 @@
 
 ### Description
 
-This program encrypt and decrypts strings in a text file uses the PSU-CRYPT algorithm which is a combination of the Twofish and Skipjack algorithms which uses the DES structure. A set of 192 sub keys are generated based on circular rotations of the main key. The plaintext goes through 16 rounds of the Feistel cipher. Bit manipulation operations are performed on the lower half bits of the ciphertext, and each round the ciphertext is permutated through substituions, concatenations, and XORs. 
+This program encrypt and decrypts strings in a text file uses the PSU-CRYPT algorithm which is a combination of the *Twofish* and *Skipjack* algorithms which uses the DES structure. A set of 192 sub keys are generated based on circular rotations of the main key. The plaintext goes through 16 rounds of the Feistel cipher. Bit manipulation operations are performed on the lower half bits of the ciphertext, and each round the ciphertext is permutated through substituions, concatenations, and XORs. 
 
 The key must be 64 bits and text in the external files are processed 64 bits at a time and the resulting block is 64 bits. This is a symetric key system so the encryption and decryption processes are the same, however, the sub keys are used in the reverse order.
 
