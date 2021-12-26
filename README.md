@@ -1,4 +1,4 @@
-# CS 488: Cryptography - Block Encryption
+# Symmetric Block Encryption
 
 ### Files
 
